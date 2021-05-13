@@ -16,7 +16,9 @@ TODO
 4. Open VS Code via the Anaconda terminal.
 5. Configure `.vscode/settings.json`
 
+```
     {
         "python.pythonPath": "c:\\Anaconda3\\envs\\env_name\\python.exe",
         "python.analysis.extraPaths": ["backend", "D:\\path_to\\project"]
     }
+```
