@@ -32,3 +32,12 @@ Open the terminal.
 ```bash
 redis-server
 ```
+
+### Celery
+
+Change the current working directory to the `backend` folder.
+
+```bash
+cd .\backend
+celery -A worker worker --loglevel=INFO
+```
