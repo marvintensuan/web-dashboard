@@ -6,7 +6,27 @@ This is based on James Powell's *Building Web-based Analysis & Simulation Platfo
 
 ## Requirements
 
+## Backend
+
 TODO
+
+## Frontend
+
+From the [Vue 3 Official Documentation](https://v3.vuejs.org/guide/installation.html), install Vue and Vue-CLI globally and create an app called `frontend`.
+
+```bash
+npm install vue@next
+npm install -g @vue/cli
+vue create frontend
+```
+
+Choose `Default (Vue 3) ([Vue3] babel, eslint)`.
+
+If you run into problems regarding `vue.ps1` not being digitally signed, use the following command:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+```
 
 ## Setting up environment and IDE
 
@@ -53,4 +73,13 @@ Change the current working directory to the `backend` folder.
 ```bash
 cd .\backend
 celery -A worker worker --loglevel=INFO
+```
+
+## Frontend
+
+To run the Vue app (development), change the current working directory to the `frontend` folder.
+
+```bash
+cd .\backend
+npm run serve
 ```
