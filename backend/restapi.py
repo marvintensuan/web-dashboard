@@ -8,7 +8,8 @@ TASKS = {}
 @app.get('/')
 def list_tasks():
     tasks = {task_id: {'ready': task.ready()}
-            for task_id, task in TASKS.items()}
+                        for task_id, task in TASKS.items()
+            }
     return jsonify(tasks)
 
 @app.put('/')
