@@ -25,7 +25,11 @@ TODO
 
 ## How to run
 
-### Flask
+### Backend
+
+The backend of this app is composed of three parts: a Flask server, Celery task queue, and redis as Celery's broker.
+
+#### Flask
 
 Change the current working directory to the `backend` folder.
 
@@ -34,7 +38,7 @@ cd .\backend
 python restapi.py
 ```
 
-### Redis
+#### Redis
 
 Open the terminal.
 
@@ -42,7 +46,7 @@ Open the terminal.
 redis-server
 ```
 
-### Celery
+#### Celery
 
 Change the current working directory to the `backend` folder.
 
