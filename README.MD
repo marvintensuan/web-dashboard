@@ -22,3 +22,13 @@ TODO
         "python.analysis.extraPaths": ["backend", "D:\\path_to\\project"]
     }
 ```
+
+## How to run
+
+### Redis
+
+Open the terminal.
+
+```bash
+redis-server
+```
