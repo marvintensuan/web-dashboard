@@ -25,6 +25,15 @@ TODO
 
 ## How to run
 
+### Flask
+
+Change the current working directory to the `backend` folder.
+
+```bash
+cd .\backend
+python restapi.py
+```
+
 ### Redis
 
 Open the terminal.
